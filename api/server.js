@@ -2,6 +2,9 @@ const express = require('express');
 const productsRouter = require('../products/products-router');
 const suppliersRouter = require('../suppliers/suppliers-router');
 const server = express();
+
+
+
 //global middleware 
 server.use(express.json())
 
